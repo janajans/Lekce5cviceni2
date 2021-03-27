@@ -9,6 +9,8 @@ const parElm = document.querySelector('#msg');
 
 if (dnes.isAfter(velikonoce)) {
   parElm.textContent = 'ANO, POČKEJ SI ZA ROK';
+  parElm.classList.add('msg--already');
 } else {
   parElm.textContent = 'JEŠTĚ NE, ALE UŽ BRZY!';
+  parElm.classList.add('msg--notYet');
 }

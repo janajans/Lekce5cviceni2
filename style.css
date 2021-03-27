@@ -7,6 +7,13 @@ h1 {
 }
 .msg {
   font-size: large;
-  color: green;
   font-weight: bold;
+}
+
+.msg--already {
+  color: green;
+}
+
+.msg--notYet {
+  color: red;
 }
